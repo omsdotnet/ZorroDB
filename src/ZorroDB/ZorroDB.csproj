@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.5</Version>
+    <RepositoryUrl>https://github.com/omsdotnet/ZorroDB</RepositoryUrl>
+    <PackageIcon>128x128.png</PackageIcon>
+    <PackageIconUrl />
+    <Description>Database for bringing justice for developers with hosting</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\promo\128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
